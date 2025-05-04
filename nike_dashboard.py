@@ -10,7 +10,7 @@ import altair as alt
 @st.cache_data
 def load_data():
     np.random.seed(42)
-    regions = ['North America', 'Europe', 'Asia' 'South America']
+    regions = ['North America', 'Europe', 'Asia', 'South America']
     categories = ['Shoes', 'Apparel', 'Accessories']
     months = pd.date_range(start='2023-01-01', end='2023-12-01', freq='MS')
 
